@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "7360c8f3-bc50-4538-a959-2bb8984a4815",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26305115"
+	},
+	"item": [
+		{
+			"name": "kkp-app",
+			"item": [
+				{
+					"name": "http://localhost:8000/register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "Arizal Prakasa",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "arizalprakasa@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "kucinghitam",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
