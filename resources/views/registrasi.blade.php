@@ -17,16 +17,20 @@
                     @csrf
                     <div class="form-group">
                       <label for="exampleInputEmail1">Nama</label>
-                      <input type="text" class="form-control" id="name" name="name">
+                      <input type="text" class="form-control" id="name" name="name" required>
                     </div>
                     <div class="form-group">
                         <label for="">Email</label>
-                        <input type="email" class="form-control" name="email" id="email">
+                        <input type="email" class="form-control" name="email" id="email" required>
                     </div>
                     <div class="form-group">
                       <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="password" name="password">
+                      <input type="password" class="form-control" id="password" name="password" required>
                     </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Konfirmasi Password</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                      </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                   </form>
             </div>

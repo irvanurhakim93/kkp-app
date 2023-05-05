@@ -20,5 +20,6 @@ Route::get('/', function () {
 
 
 // Route::post('/register', [RegisterController::class])->name('user.register');
-Route::get('/register',[RegisterController::class,'index']);
+Route::get('/register',[RegisterController::class,'index'])->name('registerform');
+Route::any('/register/requestotp',[RegisterController::class,'requestOtp']);
 Route::post('/registerprocess', App\Http\Controllers\Api\RegisterController::class)->name('register');
